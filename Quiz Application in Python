@@ -27,6 +27,11 @@ def quiz():
             "question": "Which symbol is used for comments in Python?",
             "options": ["A //", "B <!-- -->", "C #", "D /* */"],
             "answer": "C"
+        },
+        {
+            "questions": "In file handling 'a' is used for?",
+            "options": ["A append","B open", "C close","D read"],
+            "answer": "A"
         }
     ]
     print("\n \t Welcome to the Quiz Application \n")
