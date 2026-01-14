@@ -1,5 +1,6 @@
 
 # Quiz Application using in Python 
+
 def quiz():
     score = 0
     questions = [
@@ -34,6 +35,7 @@ def quiz():
             "answer": "A"
         }
     ]
+
     print("\n \t Welcome to the Quiz Application \n")
     for q in questions:
         print(q["question"])
@@ -53,5 +55,7 @@ def quiz():
         print(" Good Job!!")
     else:
         print(" Needs Improvement, So Try Again!!")
+
 # Run the quiz
 quiz()
+
